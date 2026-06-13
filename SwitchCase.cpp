@@ -38,3 +38,11 @@ void output(){
     cout << "Jurusan Pilihan : "<< namaJurusan << endl;
     cout << "-----------------------------------" << endl;
 
+}
+int main(){
+    input();
+    pilihanJurusan();
+    output();
+
+    return 0;
+}
